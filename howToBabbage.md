@@ -143,7 +143,7 @@ If you want to use wildcards with deleting (rm) test first eg:
 ---
 
 ## <!--fit --> Connect to the server 
-``` ssh barribeau@138.253.198.78 ``` 
+``` ssh barribeau@the.ip.address.from.jon ``` 
 
 ---
 **Tips and tricks**
@@ -154,11 +154,11 @@ add the following (but with your deets obv):
 
 ``` 
 Host babbage
-        HostName 138.253.198.78
+        HostName the.ip.address.from.jon
         User barribeau
 
 Host euler
-        HostName euler01.liv.ac.uk
+        HostName the.euler.address.from.richard
         User seth
 ```
 
@@ -184,7 +184,7 @@ scp testFile.txt babbage:path/to/where/you/want/it/to/go
 
 without the shortcut
 ``` 
-scp testFile.txt barribeau@138.253.201.241:path/to/where/you/want/it/to/go
+scp testFile.txt barribeau@the.ip.address.from.jon:path/to/where/you/want/it/to/go
 ```
 
 --- 
@@ -198,7 +198,7 @@ scp babbage:path/to/where/your/file/is/testFile.txt path/to/put/it/on/your/compu
 
 without the shortcut
 ``` 
-scp barribeau@138.253.201.241:path/to/where/your/file/is/testFile.txt path/to/put/it/on/your/computer
+scp barribeau@the.ip.address.from.jon:path/to/where/your/file/is/testFile.txt path/to/put/it/on/your/computer
 ```
 
 ---
