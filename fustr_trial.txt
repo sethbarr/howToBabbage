@@ -1,0 +1,7 @@
+# Fustr attempt
+git clone https://github.com/tijeco/FUSTr.git
+bash FUSTr/setup_docker.sh ./Transcriptomes/ # had to edit the setup file and drop the pip installation as that was causing errors with python version (and pip already installed)
+docker run -it fustr /bin/bash
+FUSTr -d ./data -t <number_of_threads>
+
+what do output files look like? 
